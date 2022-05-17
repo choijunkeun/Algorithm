@@ -2,16 +2,15 @@ package Algorithm_0517;
 
 import java.util.Scanner;
 // 난이도 3
-public class CodeUp1085 {
+public class CodeUp1086 {
     public static void main(String[] args) {
-        int h,b,c,s;
+        int w,h,b;
         Scanner scanner = new Scanner(System.in);
+        w = scanner.nextInt();
         h = scanner.nextInt();
         b = scanner.nextInt();
-        c = scanner.nextInt();
-        s = scanner.nextInt();
-        double vol = (((long)h*b*c*s)/8); //byte
 
-        System.out.printf("%.1f MB", vol/1024/1024);
+        double vol = ((long)w*h*b)/8;
+        System.out.printf("%.2f MB", vol/1024/1024);
     }
 }
