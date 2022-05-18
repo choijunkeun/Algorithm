@@ -5,6 +5,7 @@ import java.util.Scanner;
 // 난이도 3
 public class CodeUp1165 {
     public static void main(String[] args) {
+        //문제설명
         //지금 1반과 2반이 축구를 하고있다.
         //축구경기 타임은 총 90분이고,
         //현재 1반이 0점, 2반이 2점인 상황에서, 1반은 경남정보고 최고의 스트라이커인 성익이를 투입하기로 결정했다.
