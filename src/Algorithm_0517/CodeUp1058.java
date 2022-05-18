@@ -2,6 +2,7 @@ package Algorithm_0517;
 
 import java.util.Scanner;
 
+// 난이도 1
 public class CodeUp1058 {
     public static void main(String[] args) {
         int a,b;
