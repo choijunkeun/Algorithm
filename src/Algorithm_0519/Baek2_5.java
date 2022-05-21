@@ -37,7 +37,7 @@ public class Baek2_5 {
             if(hour<0) {
                 hour = 23;
             }
-            
+
             System.out.println(hour+" "+minute);
             // 분이 45분 이상일 때는 시간도 변경될 필요 없고, 시간만 45분 빼주면 된다.
         } else {
