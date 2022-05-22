@@ -13,13 +13,18 @@ public class CodeUp1212 {
         //삼각형이 가능하면 "yes", 삼각형을 만들 수 없다면 "no"를 출력하시오.
 
 
+
+
+
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
+        long start = System.currentTimeMillis();
         // 오름차순으로 정렬해서 저장하기 위해 배열에 값 넣기
         int[] arrList = {a,b,c};
+
 
 
         // 반복 횟수는 (배열길이-1) 해줘야한다. (ex: 배열길이가 3이면 arr[0] 과 arr[1] 을 비교해주고 자리바꿔주고, arr[1]과 arr[2]를 비교해서 자리바꿈)
@@ -35,11 +40,13 @@ public class CodeUp1212 {
             }
         }
 
-
         if(arrList[2] < arrList[1] + arrList[0]) {
             System.out.println("yes");
         } else {
             System.out.println("no");
         }
+
+        long end = System.currentTimeMillis();
+        System.out.println( "실행 시간 : " + ( end - start )/1000.00 +"초");
     }
 }

@@ -15,6 +15,7 @@ public class CodeUp1231 {
         Scanner scanner = new Scanner(System.in);
         String inputVal = scanner.nextLine();
         //산술연산자를 구별하기 위해 변수 선언 (ex: 1 -> + , 2 -> -, 3 -> * , 4 -> / )
+
         int indexChar = 0;
 
         //산술연산자 기준으로 앞 뒤 값을 넣어줄 배열 선언
