@@ -1,4 +1,4 @@
-package Algorithm_0520;
+package Algorithm_0520_0522;
 
 import java.util.Scanner;
 // 난이도 1
