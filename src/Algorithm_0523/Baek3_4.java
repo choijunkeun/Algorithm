@@ -14,6 +14,7 @@ public class Baek3_4 {
             String[] arr = a.split(" ");
             bw.write(Integer.parseInt(arr[0]) + Integer.parseInt(arr[1]) +"\n");
         }
+        //버퍼에 있는 모든것들 출력
         bw.flush();
     }
 }
