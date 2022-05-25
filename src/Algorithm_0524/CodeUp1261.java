@@ -26,5 +26,7 @@ public class CodeUp1261 {
         } else {
             System.out.println(0);
         }
+
+        scanner.close();
     }
 }

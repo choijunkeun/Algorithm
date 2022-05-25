@@ -16,9 +16,9 @@ public class CodeUp1281 {
         int b = scanner.nextInt();
 
         System.out.println(strResult(a,b) + "="+result(a,b));
-
-
+        scanner.close();
     }
+
     static int result(int a, int b) {
         int sum = 0;
         for(int i=a; i<=b; i++) {

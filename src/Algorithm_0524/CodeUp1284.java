@@ -2,7 +2,7 @@ package Algorithm_0524;
 
 import java.util.Scanner;
 
-// 아직 다 못품
+// 틀림 (나중에 다시 풀어보기)
 public class CodeUp1284 {
     public static void main(String[] args) {
         //두 소수의 곱을 암호로 사용하는 알고리즘은 큰 수의 소인수분해가 어렵기 때문에 안전하다고 알려져있다.
@@ -17,19 +17,16 @@ public class CodeUp1284 {
         // 입력 예시 : 21 , 출력 예시 3  7
 
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        int n = scanner.nextInt(); // 입력값
 
-        // 1 -1  1-2  1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10
-        for(int i=2; i<=n/2; i++) {
 
-            for(int j=1; j<=n; j++) {
 
-                if(i*j==n) {
-                    System.out.println("i=" +i+ ", j=" +j+ " , 총합 : " + n);
-                }
+        for(int i=2; i<=n; i++) {       // 1은 소수가 아니기 때문에 2부터 시작한다.
+            while(n%i==0) {
+                n = n / i;
+                System.out.println(i);
             }
         }
-
 
     }
 }

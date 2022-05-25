@@ -20,6 +20,8 @@ public class CodeUp1272 {
         int a = choice(k);
         int b = choice(h);
         System.out.println(a+b);
+
+        scanner.close();
     }
 
     //  (1) , (2)x5, (3)-1, (4)x5, (5)-2, (6)x5, (7)-3, (8)x5, (9)-4, (10)x5, (11)-5, (12)x5
