@@ -5,6 +5,8 @@ import java.util.Scanner;
 //10개의 수가 입력된다.
 //10개의 수 중 5의 배수를 하나만 출력한다.
 //만약 5의 배수가 없다면 0을 출력한다.
+
+// 난이도 3 (맞음)
 public class CodeUp1261 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

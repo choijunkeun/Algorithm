@@ -1,7 +1,7 @@
 package Algorithm_0524;
 
 import java.util.Scanner;
-
+// 난이도 5(맞음)
 public class CodeUp1281 {
     public static void main(String[] args) {
         //자연수 a, b 사이의 구간에 대해서 홀수는 더하고 짝수는 빼는 식을 보여준 후 결과를 출력하시오.

@@ -2,6 +2,8 @@ package Algorithm_0524;
 
 import java.util.Scanner;
 
+
+// 틀림.. 나중에 다시 풀어보기
 public class CodeUp1283 {
     public static void main(String[] args) {
         //gbs라는 개미 투자자가 주식에 투자하려고 합니다.
@@ -28,8 +30,29 @@ public class CodeUp1283 {
         //  bad
 
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
+        float a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c = scanner.nextInt();
+        int [] c = new int[b];
+
+        int percent;
+        float result;
+
+        float origin_a = a;
+        for(int i=0; i<c.length; i++) {
+            percent = scanner.nextInt();
+            result = a/(100/percent);
+            a = a+result;
+        }
+
+        if(origin_a>a) {
+            System.out.printf("-%.0f\n", origin_a-a);
+            System.out.println("bad");
+        } else if(origin_a<a){
+            System.out.printf("%.0f\n", a-origin_a);
+            System.out.println("good");
+        } else {
+            System.out.printf("%.0f\n", a-origin_a);
+            System.out.println("same");
+        }
     }
 }
