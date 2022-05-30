@@ -17,18 +17,18 @@ public class CodeUp1272 {
         int k = scanner.nextInt();
         int h = scanner.nextInt();
 
+        scanner.close();
+
         int a = choice(k);
         int b = choice(h);
         System.out.println(a+b);
 
-        scanner.close();
     }
 
     //  (1) , (2)x5, (3)-1, (4)x5, (5)-2, (6)x5, (7)-3, (8)x5, (9)-4, (10)x5, (11)-5, (12)x5
     //  1, 2, 3, 4, 5, 6, 7, 8 .. 이지만 짝수에서는 x5씩 해주고 홀 수 일때는 홀수번째 마다 0부터 시작해서 1씩 증가한 값을 빼준다.
 
     static int choice(int x) {
-        int cnt = 0;
         //x가 짝수면
         if (x % 2 == 0) {
             // 2번째 10, 4번째 20, 6번째 30, 8번째 40, 10번째 50...

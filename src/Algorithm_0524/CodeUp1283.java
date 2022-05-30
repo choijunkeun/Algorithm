@@ -2,7 +2,6 @@ package Algorithm_0524;
 
 import java.util.Scanner;
 
-
 // 틀림.. 나중에 다시 풀어보기
 public class CodeUp1283 {
     public static void main(String[] args) {
@@ -30,14 +29,14 @@ public class CodeUp1283 {
         //  bad
 
         Scanner scanner = new Scanner(System.in);
-        float a = scanner.nextInt();
+        double a = scanner.nextInt();
         int b = scanner.nextInt();
         int [] c = new int[b];
 
         int percent;
-        float result;
+        double result;
 
-        float origin_a = a;
+        double origin_a = a;
         for(int i=0; i<c.length; i++) {
             percent = scanner.nextInt();
             result = a/(100/percent);

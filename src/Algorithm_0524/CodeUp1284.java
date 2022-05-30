@@ -19,14 +19,13 @@ public class CodeUp1284 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // 입력값
 
-
-
         for(int i=2; i<=n; i++) {       // 1은 소수가 아니기 때문에 2부터 시작한다.
+            int cnt = 0;
             while(n%i==0) {
                 n = n / i;
-                System.out.println(i);
+
+                System.out.print(i + " ");
             }
         }
-
     }
 }
