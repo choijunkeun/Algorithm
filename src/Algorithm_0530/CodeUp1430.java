@@ -30,6 +30,5 @@ public class CodeUp1430 {
             System.out.print(check + " ");
             check = 0; // 다시 0으로 초기화
         }
-
     }
 }

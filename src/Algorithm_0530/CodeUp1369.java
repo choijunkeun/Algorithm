@@ -45,16 +45,11 @@ public class CodeUp1369 {
         //*  *  *  *
         //**********
 
-        //하드코딩으로 일단 문제접근해보자..
-        //첫번째 줄..
-//        for (int i = 0; i < n; i++) {
-//            System.out.print("*");
-//        }
-//        System.out.println();
 
+
+        //하드코딩으로 일단 문제접근해보자..
 
         int cnt = 2;
-
         for (int a = 0; a < n - 2; a++) {
             // 첫번째줄
             if(a==0) {
@@ -63,6 +58,7 @@ public class CodeUp1369 {
                 }
                 System.out.println();
             }
+
             // 두번쨰줄 ~ 마지막 전 줄
             for (int i = 0; i < n; i++) {
                 // 첫번째칸이나 마지막칸 일떄는 *찍기
